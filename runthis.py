@@ -83,7 +83,8 @@ class change_access_window(object):
 			messagebox.showinfo('Thành công','Đã đổi mật khẩu thành công')
 			self.new_top.destroy()
 		else:
-			messagebox.showwaring('Lỗi','Mật khẩu không khớp')
+			messagebox.showwarning('Lỗi','Mật khẩu không khớp')
+			self.re_change_access_entry.delete(0,END)
 
 
 

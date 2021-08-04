@@ -311,8 +311,8 @@ submit_button.grid(row=5,columnspan=2,pady=10)
 change_password_button.grid(row=5,columnspan=2,pady=10,padx=10,column=2)
 
 name_label_2.grid(row=6)
-username_label_2.grid(row=6,column=1)
-email_label_2.grid(row=6,column=2,sticky=W,padx=50)
+username_label_2.grid(row=6,column=2)
+email_label_2.grid(row=6,column=1,sticky=W,padx=50)
 password_label_2.grid(row=6,column=3,padx=50)
 
 read_files()
